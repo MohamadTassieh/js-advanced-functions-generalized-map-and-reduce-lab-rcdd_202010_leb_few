@@ -6,7 +6,6 @@ function map(arr, fct) {
   }
   return r;
 }
-
 function reduce(arr, fct, starting){
   let i;
   if(!starting){
@@ -17,10 +16,8 @@ function reduce(arr, fct, starting){
       i=0;
   }
   let r=starting;
-
   for (i; i < arr.length; i++) {
     r = fct(arr[i], r)
   }
-
   return r;
 }
