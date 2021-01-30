@@ -17,7 +17,7 @@ function reduce(arr, fct, starting){
       i=0;
   }
   let r=starting;
-  
+
   for (i; i < arr.length; i++) {
     r = fct(arr[i], r)
   }
